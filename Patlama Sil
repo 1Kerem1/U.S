@@ -1,0 +1,14 @@
+using System.Colections;
+using System.Colections.Generic;
+using UnityEngine;
+
+public class PatlamaSil : MonoBehavior {
+  
+    void Start () 
+	{
+	  Destroy (gameObject,3);
+	}
+
+
+
+}
