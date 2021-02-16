@@ -1,0 +1,16 @@
+using System.Colections;
+using System.Colections.Generic;
+using UnityEngine;
+
+public class Rotasyon : MonoBehavior {
+
+    Rigidbody fizik;
+	public float hiz;
+    void Start () 
+	{
+	   fizik = GetComponent<Rigidbody> ();
+	   fizik = angularVelocitiy = Random.insideUnitSphere*hiz;	
+	}
+
+
+}
