@@ -1,0 +1,13 @@
+using System.Colections;
+using System.Colections.Generic;
+using UnityEngine;
+
+public class Sinirlar : MonoBehavior {
+
+
+    void OnTriggerExit(Collider col) 
+	{
+	   Destroy (col.gameObject);
+	}
+
+}
